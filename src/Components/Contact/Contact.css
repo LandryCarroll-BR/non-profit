@@ -1,0 +1,19 @@
+.contact__form {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px;
+  border-radius: 12px;
+  background-color: rgb(241, 241, 241);
+}
+
+.contact__form > form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__formRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex: 1;
+}

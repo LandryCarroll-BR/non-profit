@@ -1,0 +1,42 @@
+.pageHeader {
+  /* background-image: url('./images/about.jpg'); */
+  height: 100vh;
+  max-height: 700px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-color:#776c6479;
+  background-blend-mode: multiply;
+}
+
+.pageHeader__content {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 24px;
+}
+
+.pageHeader__content > h1 {
+  font-size: 3.6em;
+  margin-bottom: 12px;
+}
+
+.pageHeader__content > h2 {
+  font-size: 1.4em;
+  font-weight: 400;
+}
+
+@media (min-width: 800px) {
+    .pageHeader__content > h1 {
+      font-size: 6em;
+      margin-bottom: 12px;
+    }
+    
+    .pageHeader__content > h2 {
+      font-size: 2em;
+      font-weight: 400;
+    }
+  }

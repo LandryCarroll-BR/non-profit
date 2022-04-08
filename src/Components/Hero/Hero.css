@@ -1,0 +1,85 @@
+.hero {
+  background-image: url('./images/CX0Z9123935.jpg');
+  background-size: cover;
+  background-position: center;
+  background-color:#927b63b4;
+  background-blend-mode: multiply;
+}
+
+.hero__contentContainer {
+  padding: 0 24px;
+}
+
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center ;
+  text-align: left;
+  padding: 50px 0 0 0;
+  height: 100vh;
+  color: white;
+  max-width: 1100px;
+  margin: 0 auto 0px auto;
+}
+
+.hero__content > h1 {
+  font-size: 2.7em;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+.hero__content > h2 {
+  font-size: 1.5em;
+  font-weight: 300;
+  margin-bottom: 34px;
+  line-height: 1.6;
+  max-width: 400px;
+}
+
+@media (min-width: 800px) { 
+    .hero__content {
+      padding: 50px 0px 0 0;
+    }
+
+    .hero__content > h1 {
+      font-size: 6.1em;
+    }
+
+    .hero__content > h2 {
+      margin-bottom: 38px;
+    }
+  }
+
+  @media (max-width: 350px) { 
+    .hero__content {
+      height: 100vh;
+    }
+
+    .hero__content > h1 {
+      font-size: 2.4em !important;
+    }
+
+    .hero__content > h2 {
+      font-size: 1em !important;
+    }
+  }
+
+.hero__callToAction {
+  background: #1f79ee;
+  font-weight: 500;
+  font-size: 1.2em;
+  color: #fff !important;
+  padding: 16px 24px;
+  border-radius: 3px;
+  width: fit-content;
+}
+
+@media (min-width: 922px) { 
+    .hero__callToAction {
+      padding: 14px 20px;
+    }
+  }
+
+.hero__callToAction:hover {
+  background-color: #1969d3;
+}
